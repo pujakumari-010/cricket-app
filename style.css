@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 50px;
+  }
+  
+  .counters {
+    display: flex;
+    align-items: center;
+  }
+  
+  span {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .margin-right-10 {
+    margin-right: 10px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
